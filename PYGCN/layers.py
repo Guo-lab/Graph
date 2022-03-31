@@ -5,7 +5,7 @@ from torch.nn.parameter import Parameter
 from torch.nn.modules.module import Module
 
 
-
+#@ https://blog.csdn.net/Xiao_CangTian/article/details/116474734
 class GraphConvolution(Module):
     
     def __init__(self, in_features, out_features, bias=True):
