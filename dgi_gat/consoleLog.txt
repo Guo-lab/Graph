@@ -1126,3 +1126,196 @@ tensor(0.3910)
 Average accuracy: tensor([0.3914])
 tensor(39.1380)
 tensor(0.5436)
+
+
+
+
+
+
+
+
+
+
+128
+
+(GNN) GSQdeMacBook-Pro:DGI-GAT gsq$ python execute.py
+Epoch: 0001 Loss: tensor(0.6931, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 74.2802s
+Epoch: 0002 Loss: tensor(0.6929, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 57.5535s
+Epoch: 0003 Loss: tensor(0.6923, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 57.8238s
+Epoch: 0004 Loss: tensor(0.6918, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 58.1790s
+Epoch: 0005 Loss: tensor(0.6911, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 56.5890s
+Epoch: 0006 Loss: tensor(0.6903, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 57.6293s
+Epoch: 0007 Loss: tensor(0.6896, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.8916s
+Epoch: 0008 Loss: tensor(0.6888, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.3696s
+Epoch: 0009 Loss: tensor(0.6883, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.2514s
+Epoch: 0010 Loss: tensor(0.6872, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.9929s
+Epoch: 0011 Loss: tensor(0.6860, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 55.4262s
+Epoch: 0012 Loss: tensor(0.6839, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 55.3366s
+Epoch: 0013 Loss: tensor(0.6842, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 55.1206s
+Epoch: 0014 Loss: tensor(0.6820, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 58.7383s
+Epoch: 0015 Loss: tensor(0.6819, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 58.3543s
+Epoch: 0016 Loss: tensor(0.6800, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 55.6468s
+Epoch: 0017 Loss: tensor(0.6801, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 55.4883s
+Epoch: 0018 Loss: tensor(0.6763, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 56.4516s
+Epoch: 0019 Loss: tensor(0.6715, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.2141s
+Epoch: 0020 Loss: tensor(0.6743, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 62.2241s
+Epoch: 0021 Loss: tensor(0.6693, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 58.2813s
+Epoch: 0022 Loss: tensor(0.6681, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.6867s
+Epoch: 0023 Loss: tensor(0.6680, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.6144s
+Epoch: 0024 Loss: tensor(0.6715, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 58.8253s
+Epoch: 0025 Loss: tensor(0.6673, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 61.2587s
+Epoch: 0026 Loss: tensor(0.6672, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.3553s
+Epoch: 0027 Loss: tensor(0.6651, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 70.2425s
+Epoch: 0028 Loss: tensor(0.6642, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 98.8833s
+Epoch: 0029 Loss: tensor(0.6587, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.2444s
+Epoch: 0030 Loss: tensor(0.6640, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 63.1351s
+Epoch: 0031 Loss: tensor(0.6591, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.7131s
+Epoch: 0032 Loss: tensor(0.6587, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.4565s
+Epoch: 0033 Loss: tensor(0.6534, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 61.2453s
+Epoch: 0034 Loss: tensor(0.6586, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.6644s
+Epoch: 0035 Loss: tensor(0.6657, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 56.6478s
+Epoch: 0036 Loss: tensor(0.6551, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 62.2272s
+Epoch: 0037 Loss: tensor(0.6664, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 55.0147s
+Epoch: 0038 Loss: tensor(0.6516, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.6338s
+Epoch: 0039 Loss: tensor(0.6637, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.2155s
+Epoch: 0040 Loss: tensor(0.6513, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.5039s
+Epoch: 0041 Loss: tensor(0.6562, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.6291s
+Epoch: 0042 Loss: tensor(0.6574, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 58.5105s
+Epoch: 0043 Loss: tensor(0.6570, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 57.4590s
+Epoch: 0044 Loss: tensor(0.6528, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 63.4504s
+Epoch: 0045 Loss: tensor(0.6505, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 58.1982s
+Epoch: 0046 Loss: tensor(0.6578, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 56.2431s
+Epoch: 0047 Loss: tensor(0.6565, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 54.6575s
+Epoch: 0048 Loss: tensor(0.6596, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 57.3520s
+Epoch: 0049 Loss: tensor(0.6535, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 55.9408s
+Epoch: 0050 Loss: tensor(0.6528, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 57.0485s
+Epoch: 0051 Loss: tensor(0.6517, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 56.9065s
+Epoch: 0052 Loss: tensor(0.6472, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.9514s
+Epoch: 0053 Loss: tensor(0.6605, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.9938s
+Epoch: 0054 Loss: tensor(0.6452, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 56.1145s
+Epoch: 0055 Loss: tensor(0.6560, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 57.7827s
+Epoch: 0056 Loss: tensor(0.6488, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 57.0557s
+Epoch: 0057 Loss: tensor(0.6507, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.8968s
+Epoch: 0058 Loss: tensor(0.6439, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.4344s
+Epoch: 0059 Loss: tensor(0.6470, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 58.5703s
+Epoch: 0060 Loss: tensor(0.6493, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.0528s
+Epoch: 0061 Loss: tensor(0.6474, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 57.2948s
+Epoch: 0062 Loss: tensor(0.6483, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 61.4506s
+Epoch: 0063 Loss: tensor(0.6528, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 61.5696s
+Epoch: 0064 Loss: tensor(0.6529, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.9064s
+Epoch: 0065 Loss: tensor(0.6510, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.1682s
+Epoch: 0066 Loss: tensor(0.6500, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 63.2021s
+Epoch: 0067 Loss: tensor(0.6462, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.4190s
+Epoch: 0068 Loss: tensor(0.6437, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 57.2449s
+Epoch: 0069 Loss: tensor(0.6489, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 61.9205s
+Epoch: 0070 Loss: tensor(0.6439, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 58.5740s
+Epoch: 0071 Loss: tensor(0.6532, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 63.4733s
+Epoch: 0072 Loss: tensor(0.6457, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 61.7811s
+Epoch: 0073 Loss: tensor(0.6428, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.6154s
+Epoch: 0074 Loss: tensor(0.6413, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.2134s
+Epoch: 0075 Loss: tensor(0.6527, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 60.6501s
+Epoch: 0076 Loss: tensor(0.6420, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 57.9953s
+Epoch: 0077 Loss: tensor(0.6600, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.4300s
+Epoch: 0078 Loss: tensor(0.6423, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 59.6835s
+Epoch: 0079 Loss: tensor(0.6453, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 61.8169s
+Epoch: 0080 Loss: tensor(0.6444, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 69.7698s
+Epoch: 0081 Loss: tensor(0.6468, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 71.7946s
+Epoch: 0082 Loss: tensor(0.6372, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 71.9180s
+Epoch: 0083 Loss: tensor(0.6447, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 67.9572s
+Epoch: 0084 Loss: tensor(0.6411, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 68.9869s
+Epoch: 0085 Loss: tensor(0.6381, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 65.5434s
+Epoch: 0086 Loss: tensor(0.6418, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 64.6545s
+Epoch: 0087 Loss: tensor(0.6349, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 64.4993s
+Epoch: 0088 Loss: tensor(0.6420, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 66.6024s
+Epoch: 0089 Loss: tensor(0.6473, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 68.8215s
+Epoch: 0090 Loss: tensor(0.6473, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 72.8228s
+Epoch: 0091 Loss: tensor(0.6406, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 72.4886s
+Epoch: 0092 Loss: tensor(0.6455, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 64.9032s
+Epoch: 0093 Loss: tensor(0.6396, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 66.5430s
+Epoch: 0094 Loss: tensor(0.6399, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 63.7630s
+Epoch: 0095 Loss: tensor(0.6428, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 64.5011s
+Epoch: 0096 Loss: tensor(0.6403, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 64.2642s
+Epoch: 0097 Loss: tensor(0.6433, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 65.1864s
+Epoch: 0098 Loss: tensor(0.6384, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 64.5211s
+Epoch: 0099 Loss: tensor(0.6349, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 63.9972s
+Epoch: 0100 Loss: tensor(0.6476, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 64.0689s
+Epoch: 0101 Loss: tensor(0.6441, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 71.3149s
+Epoch: 0102 Loss: tensor(0.6379, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 65.0604s
+Epoch: 0103 Loss: tensor(0.6442, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 68.0408s
+Epoch: 0104 Loss: tensor(0.6383, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 68.9954s
+Epoch: 0105 Loss: tensor(0.6263, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 72.3974s
+Epoch: 0106 Loss: tensor(0.6451, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 71.1660s
+Epoch: 0107 Loss: tensor(0.6338, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 65.8580s
+Epoch: 0108 Loss: tensor(0.6341, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 78.6913s
+Epoch: 0109 Loss: tensor(0.6378, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 78.6420s
+Epoch: 0110 Loss: tensor(0.6378, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 83.7532s
+Epoch: 0111 Loss: tensor(0.6451, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 70.1887s
+Epoch: 0112 Loss: tensor(0.6311, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 70.6604s
+Epoch: 0113 Loss: tensor(0.6352, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 71.1022s
+Epoch: 0114 Loss: tensor(0.6314, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 69.1764s
+Epoch: 0115 Loss: tensor(0.6477, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 66.6585s
+Epoch: 0116 Loss: tensor(0.6399, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 65.7006s
+Epoch: 0117 Loss: tensor(0.6296, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 70.0180s
+Epoch: 0118 Loss: tensor(0.6407, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 69.4970s
+Epoch: 0119 Loss: tensor(0.6406, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 67.0690s
+Epoch: 0120 Loss: tensor(0.6364, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 66.7577s
+Epoch: 0121 Loss: tensor(0.6347, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 71.0532s
+Epoch: 0122 Loss: tensor(0.6379, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 67.9472s
+Epoch: 0123 Loss: tensor(0.6383, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 69.3943s
+Epoch: 0124 Loss: tensor(0.6342, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 70.5187s
+Epoch: 0125 Loss: tensor(0.6384, grad_fn=<BinaryCrossEntropyWithLogitsBackward>) time:, 67.2829s
+Early stopping!
+Loading 104th epoch
+tensor(0.3550)
+tensor(0.3560)
+tensor(0.3610)
+tensor(0.3610)
+tensor(0.3550)
+tensor(0.3680)
+tensor(0.3650)
+tensor(0.3600)
+tensor(0.3600)
+tensor(0.3610)
+tensor(0.3570)
+tensor(0.3600)
+tensor(0.3580)
+tensor(0.3630)
+tensor(0.3580)
+tensor(0.3570)
+tensor(0.3530)
+tensor(0.3500)
+tensor(0.3530)
+tensor(0.3620)
+tensor(0.3610)
+tensor(0.3550)
+tensor(0.3620)
+tensor(0.3540)
+tensor(0.3580)
+tensor(0.3580)
+tensor(0.3550)
+tensor(0.3590)
+tensor(0.3560)
+tensor(0.3530)
+tensor(0.3610)
+tensor(0.3550)
+tensor(0.3490)
+tensor(0.3660)
+tensor(0.3640)
+tensor(0.3590)
+tensor(0.3580)
+tensor(0.3610)
+tensor(0.3620)
+tensor(0.3530)
+tensor(0.3630)
+tensor(0.3540)
+tensor(0.3600)
+tensor(0.3540)
+tensor(0.3670)
+tensor(0.3680)
+tensor(0.3630)
+tensor(0.3600)
+tensor(0.3540)
+tensor(0.3630)
+Average accuracy: tensor([0.3588])
+tensor(35.8760)
+tensor(0.4493)

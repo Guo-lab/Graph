@@ -22,7 +22,7 @@ drop_prob = 0.0
 
 # ! TOO LARGE
 #//hid_units = 512
-hid_units = 64 
+hid_units = 128
 
 
 sparse = True

@@ -1,4 +1,4 @@
-Unsupervised Adversarially Robust Representation Learning on Graphs
+Unsupervised Adversarially Robust Representation Learning on Graphs (Yangyang)
 
 Usage: Model Training
 -----
@@ -30,12 +30,12 @@ The help information of the main script ```train.py``` is listed as follows:
       --save-model              bool, Whether to save the learned model.
       --show-task               bool, Whether to exhibit the results of downstream task during training.
       --show-attack             bool, Whether to exhibit the attack process during training.
-      
+
 ### Demo
 Then a demo script is available by calling ```train.py```, as the following:
 
     python train.py --dataset cora --alpha 0.4 --epsilon 0.1 --tau 0.005
-      
+
 
 Usage: Evaluation
 -----
@@ -60,9 +60,9 @@ The help information of the evaluation script is listed as follows:
       --hinge                   bool, Whether to use robust hinge loss.
       --dim                     int, The output dimension of the loaded model.
       --gpu                     str, which gpu to use.
-      
+
 ### Demo
 Then a demo script is available by calling ```eval.py```, as the following:
 
     python eval.py --dataset cora --alpha 0.2 --epsilon 0.1 --model model.pkl
-      
+
